@@ -1,3 +1,5 @@
+#please run project_data.R before running this plotting code. 
+
 gap <- dt3[,2]
 hist(gap, main = "Global Active Power", xlab = "Global Active Power (kilowatts)", col = 2)
 
