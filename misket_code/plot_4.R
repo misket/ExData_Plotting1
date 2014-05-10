@@ -18,7 +18,7 @@ yl <- c(0, max(sm1))
 plot(date, sm1, ylim = yl, type = "l", xlab = "", ylab = "Energy sub metering")
 lines(date, sm2, type = "l", col = 2)
 lines(date, sm3, type = "l", col = 4)
-legend("topright", names(dt3)[6:8], lty = 1, col = c(1, 2, 4))
+legend("topright", names(dt3)[6:8], lty = 1, col = c(1, 2, 4), cex = .6)
 
 plot(date, grp, type = "l", ylab = "Global Reactive Power", xlab = "datetime")
 
