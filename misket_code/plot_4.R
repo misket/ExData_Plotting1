@@ -1,3 +1,5 @@
+#please run project_data.R before running this plotting code. 
+
 date <- dt3[,1]
 gap <- dt3[,2]
 grp <- dt3[,3]
